@@ -1,9 +1,10 @@
 export default function Card(props) {
+  console.log(props);
   return (
     <article className='card'>
       <img
         src={props.item.imgUrl}
-        alt={`picture of ${props.item.title}`}
+        alt={` of ${props.item.title}`}
         className='card__img'
       />
       <div className='card__info'>
