@@ -4,7 +4,7 @@ export default function Card(props) {
   return (
     <article className='card'>
       <img
-        src={props.item.imgUrl}
+        src={props.item.imageUrl}
         alt={` of ${props.item.title}`}
         className='card__img'
       />
