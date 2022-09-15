@@ -1,5 +1,6 @@
+import redMarker from '../images/marker.png';
+
 export default function Card(props) {
-  console.log(props);
   return (
     <article className='card'>
       <img
@@ -9,7 +10,7 @@ export default function Card(props) {
       />
       <div className='card__info'>
         <div className='card__info--header'>
-          <img src='../images/marker.png' alt='red map marker' />
+          <img src={redMarker} alt='red map marker' />
           <h3>{props.item.location}</h3>
           <a href={props.item.googleMapsUrl}>View on Google Maps</a>
         </div>
