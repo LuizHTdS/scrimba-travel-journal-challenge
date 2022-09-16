@@ -11,6 +11,17 @@ const data = [
       'https://franks-travelbox.com/wp-content/uploads/2017/11/brasilien-sao-paulo-die-catedral-da-se-in-sao-paulo-brasilien-cifotart-shutterstock.jpg',
   },
   {
+    title: 'Liberdade',
+    location: 'Brazil',
+    googleMapsUrl:
+      'https://www.google.com/maps/place/Liberdade,+S%C3%A3o+Paulo+-+State+of+S%C3%A3o+Paulo/@-23.5653107,-46.6502985,15z/data=!4m5!3m4!1s0x94ce59a00cc9896b:0x4d7fa8becba4e40d!8m2!3d-23.5599169!4d-46.6312586',
+    startDate: '30 Aug, 2022',
+    endDate: '4 Sep, 2022',
+    description: `Liberdade is the name of a district in the subprefecture of Sé, in São Paulo, Brazil. By various estimates, it is home to the world's largest ethnic Japanese community outside Japan. `,
+    imageUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/3/39/Liberdade_sao_paulo.jpg',
+  },
+  {
     title: 'Iguazu Falls',
     location: 'Brazil',
     googleMapsUrl:
