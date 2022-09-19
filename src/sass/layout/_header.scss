@@ -3,11 +3,12 @@
 header {
     background-color: $light-orange;
     @include center-item;
+    padding: 1.5rem;
 
     h1 {
         color: white;
-        font-weight: 400;
+        font-weight: 500;
         margin-left: 1rem;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 }
