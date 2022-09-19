@@ -10,4 +10,11 @@ body {
 
 body {
   font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

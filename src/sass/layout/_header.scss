@@ -2,4 +2,5 @@
 
 header {
     background-color: $light-orange;
+    @include center-item;
 }
