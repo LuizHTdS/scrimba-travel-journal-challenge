@@ -4,8 +4,11 @@
   padding: 0;
 }
 
-body {
+html {
   font-size: 10px;
+}
+
+body {
   box-sizing: border-box;
 }
 
@@ -24,9 +27,15 @@ header h1 {
   color: white;
   font-weight: 500;
   margin-left: 1rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .card {
+  margin: 4rem 4rem 0;
   display: flex;
+}
+.card img {
+  max-width: 20rem;
+  height: 30rem;
+  border-radius: 0.5rem;
 }/*# sourceMappingURL=style.css.map */

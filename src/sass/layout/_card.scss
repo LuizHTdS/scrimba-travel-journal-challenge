@@ -1,3 +1,11 @@
+@use '../absctracts/' as *;
+
 .card {
+    margin: 4rem 4rem 0;
     display: flex;
+    img {
+        max-width: 20rem;
+        height: 30rem;
+        border-radius: 0.5rem;
+    }
 }
