@@ -9,8 +9,8 @@ export default function Card(props) {
       <div className='card__info'>
         <div className='card__info--header'>
           <svg
-            width='14'
-            height='20'
+            width='10'
+            height='15'
             viewBox='0 0 7 10'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'

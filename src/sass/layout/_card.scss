@@ -1,11 +1,57 @@
 @use '../absctracts/' as *;
 
+main {
+    margin: 4rem 0;
+}
+
 .card {
-    margin: 4rem 4rem 0;
+    margin: 0 15rem 7rem 15rem;
     display: flex;
     img {
-        max-width: 20rem;
+        width: 25rem;
         height: 30rem;
         border-radius: 0.5rem;
+    }
+
+    &__info {
+        margin: 3rem 2rem 0 5rem;
+        max-width: 50rem;
+        color: $dark-gray;
+        max-height: 30rem;
+
+        &--header {
+            display: flex;
+
+            h3 {
+                @include center-item;
+                margin-left: 0.5rem;
+                font-size: 1.25rem;
+                font-weight: 400;
+                letter-spacing: 0.25rem;
+                text-transform: uppercase;
+            }
+
+            a {
+                margin-left: 1rem;
+                font-size: 1.25rem;
+                color: $light-gray;
+            }
+
+        }
+        &--title {
+            margin-top: 1rem;
+            font-size: 3.5rem;
+        }
+        &--travelDate {
+            margin-top: 2.4rem;
+        }
+
+        &--desc {
+            max-height: 10rem;
+            overflow-y: auto;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin-top: 4rem;
+    }
     }
 }
